@@ -1,0 +1,47 @@
+/* nav {
+  border: solid red;
+}
+.navbar-toggler {
+  
+} */
+
+.boxcont {
+  width: 100%;
+}
+.boximag {
+  width: 100%;
+  position: relative;
+}
+.boximag img {
+  width: 100%;
+  height: 40%;
+  /* max-width: 400px; */
+}
+.catinfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.boximag p {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+@media screen and (min-width: 768px) {
+
+  main {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+
+  }
+  main img:hover {
+    transform: rotate(2deg);
+    transition: all 1s ease-out;
+  }
+}
