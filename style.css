@@ -5,9 +5,15 @@
   
 } */
 @import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+#navvv {
+  background: rgb(33, 37, 41);
+}
 #logo {
-  font-family: 'Smokum', cursive;
-  font-size: 40px;
+  /* font-family: 'Smokum', cursive; */
+  font-family: 'Rampart One', cursive;
+  font-size: 30px;
 }
 .boxcont {
   width: 100%;
@@ -45,6 +51,11 @@
 }
 
 @media screen and (min-width: 1000px) {
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+  #navvv {
+    background: none;
+  }
   #sec2 {
     display: flex;
     gap: 20px;
@@ -101,6 +112,9 @@
     display: flex;
     gap: 20px;
   }
+  #smalltext p {
+    color: rgba(245, 245, 245, 0.842);
+  }
   .land {
     background: url(images/pexels-nadin-sh-9751991.jpg);
     background-size: cover;
@@ -117,12 +131,32 @@
     font-size: 20px;
   }
   #logo {
-    font-family: 'Smokum', cursive;
+    /* font-family: 'Smokum', cursive; */
+    font-family: 'Rampart One', cursive;
+    font-weight: 900;
     font-size: 50px;
     word-spacing: 5px;
     letter-spacing: 15px;
   }
   #new3 li a {
     color: white;
+  }
+  #new1 li a {
+    background: rgba(255, 255, 255, 0.123);
+    padding: 0 8px;
+    border-radius: 5px;
+  }
+  #new1 li a:hover {
+    background: rgba(0, 255, 255, 0.281);
+    color: black;
+  }
+  #shadow {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.116);
+    padding: 20px;
+  }
+  #shadow h2 {
+    color: rgba(24, 23, 23, 0.884);
+    font-family: 'Roboto', sans-serif;
   }
 }
