@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+
+#logo {
+  font-family: 'Smokum', cursive;
+  font-size: 40px;
+}
+
 .boxcont {
   width: 100%;
 }
@@ -22,17 +29,39 @@
   border-radius: 10px;
   padding: 5px 10px;
 }
+#new1 li a {
+  color: white;
+}
 
 @media screen and (min-width: 768px) {
-  nav {
-    border: solid red;
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-  }
 
   main {
     width: 60%;
     margin: 0 auto;
+  }
+
+  #new {
+    display: flex;
+    flex-direction: column;
+  }
+  #new1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  #new1 li {
+    font-size: 24px;
+  }
+  #new1 li a {
+    color: white;
+  }
+  #logo {
+    font-family: 'Smokum', cursive;
+    font-size: 50px;
+    word-spacing: 5px;
+    letter-spacing: 15px;
+  }
+  #new3 li a {
+    color: white;
   }
 }
