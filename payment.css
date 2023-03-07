@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 
 #logo {
-  font-family: 'Smokum', cursive;
-  font-size: 40px;
+  /* font-family: 'Smokum', cursive; */
+  font-family: 'Rampart One', cursive;
+  font-size: 30px;
 }
 
 .boxcont {
@@ -56,12 +58,21 @@
     color: white;
   }
   #logo {
-    font-family: 'Smokum', cursive;
+    font-family: 'Rampart One', cursive;
     font-size: 50px;
     word-spacing: 5px;
     letter-spacing: 15px;
   }
   #new3 li a {
     color: white;
+  }
+  #new1 li a {
+    background: rgba(255, 255, 255, 0.123);
+    padding: 0 8px;
+    border-radius: 5px;
+  }
+  #new1 li a:hover {
+    background: rgba(0, 255, 255, 0.281);
+    color: black;
   }
 }
