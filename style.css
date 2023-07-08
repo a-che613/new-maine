@@ -62,7 +62,9 @@
 #button button {
   width: 100%;
 }
-
+#feeding, #temperament {
+  padding: 20px;
+}
 @media screen and (min-width: 1000px) {
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
   .sec6 {
@@ -71,6 +73,10 @@
     align-items: center;
     justify-content: space-evenly;
     
+  }
+  #feeding, #temperament {
+    font-size: 20px;
+    padding: 0 40px;
   }
   .sec7 {
     padding: 20px 400px;
