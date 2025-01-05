@@ -42,6 +42,9 @@
 .secc1 {
   display: none;
 }
+#new1 {
+  color: white !important;
+}
 #new1 li a {
   color: white;
 }
